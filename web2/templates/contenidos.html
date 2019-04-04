@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- aqui llamo la funcion html:5 y escribo la cabecera de la pagina y luego esta la funcion link que es para el color de la pagina-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contenidos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+    <a href="{{ url_for('static', filename='css/main.css') }}">contenidos</a>
+</head>
+
+<!-- aqui pongo los contenidos de los enlaces-->
+<body>
+        <h3 class="headerbar">Mis enlaces</h3>
+        <ul class ="submenu">
+                <li><a href="/about"> Acerca de la pagina</a></li>
+                <li><a href="https://facebook.com/vida-de-un-estudiante-401179994050938/"> Sigueme en Facebook</a></li>
+                <li><a href="/contenidos"> Contenidos de la web</a></li>
+    
+    <!-- aqui pongo el titulo y hablo sobre este directorio-->
+            </ul>
+        <h1>Bienvenidos a mis contenidos</h1>
+        <div class="entry-content" itemprop="text">
+            <p> Bienvenidos a mis contenidos, aqui os dejo los contenidos de la web
+
+<!-- aqui pongo el los directorios y subdirectorios de estos contenidos-->
+            </p>
+ <h3 class="headerbar"></h3>
+        <ul class ="submenu">
+                <li><a href="/año 2019"> Año 2019</a></li>
+               
+
+            </ul>
+            
+        </div> 
+
+
+</body>
+</html>

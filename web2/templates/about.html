@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!-- aqui llamo la funcion html:5 y escribo la cabecera de la pagina y luego esta la funcion link que es para el color de la pagina-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El estudiante</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/main.css') }}">
+</head>
+
+<!-- aqui pongo los contenidos de los enlaces-->
+<body>
+
+<h3 class="headerbar">Mis enlaces</h3>
+
+<ul class ="submenu">
+    <li><a href="/"> Pagina inicio</a></li>
+    <li><a href="https://facebook.com/vida-de-un-estudiante-401179994050938/"> Sigueme en Facebook</a></li>
+    <li><a href="/contenidos"> Contenidos de la web</a></li>
+    
+    
+</head>
+</ul>
+ <!-- aqui pongo el titulo y hablo sobre este directorio-->
+<h1>Acerca del estudiante</h1>  
+<div class="entry-content" itemprop="text">
+        <p> Soy un estudiante de Barcelona y este es mi primer blog.<br>
+            Tambien hay que decir que soy nuevo en el mundo de la informatica, pero soy una persona curiosa y encima me apasiona el mundo <br>
+            del Diseño Web y de la Inteligencia Artificial<br>
+            Suelo subir contenido todas las setmanas, algunas veces mas que otras, pero siempre estoy activo.<br>
+            Así que muchas gracias por estar leyendome y espero que aprendais tanto como yo estoy aprendiendo.<br>
+            Un saludo
+
+        </p>
+        
+</html>
